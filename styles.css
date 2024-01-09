@@ -1,1 +1,106 @@
 /*  your css code here. If applicable */
+body{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	height:100vh;
+	margin:0;
+}
+.head{
+	width:150px;
+	height:150px;
+	margin:50px;
+	background-color:#a4d9eb;
+	border:5px solid #9bbcc2;
+	border-radius:20px;
+	position:relative;
+}
+
+.light{
+	position:absolute;
+	top: -60px;
+	left: 50%;
+	transform:translateX(-50%);
+}
+
+.bulb{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background-color:#ffa500;
+	position: absolute;
+	top: 12px;
+	left: 50%;
+	transform: translateX(-50%);
+	
+	
+}
+.stick{
+	width:10px;
+	height:15px;
+	background-color:#808080;
+	margin:5px;
+	position: relative;
+	transform:translateY(240%)
+	
+	
+	
+	
+}
+
+.ears{
+	position:absolute;
+	top:30%;
+	transform: translateY(-50%);
+}
+
+.ear{
+	width:10px;
+	height:50px;
+	background-color:#c90a0a;
+	position:absolute;
+	top: 0;
+}
+
+.left{
+	left:-15px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	
+}
+
+.right{
+	right: -165px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	
+}
+
+.eyes{
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content:space-between;
+  width: 100px;
+  gap:10px;
+	
+}
+.eye{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 5px solid #00b3ff;
+  border-radius: 50%;
+}
+.nose{
+	height:30px;
+	width:30px;
+	background-color:#c90a0a;
+}
+
+
+	
+
+
